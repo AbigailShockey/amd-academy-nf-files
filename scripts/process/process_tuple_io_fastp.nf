@@ -1,0 +1,23 @@
+process FASTP {
+  input:
+  tuple val(sample_id), path(reads)
+  
+  output:
+  tuple val(sample_id), path("*FP*.fq.gz")
+  
+  script:
+  """
+  fastp \
+   -i ${reads[0]} \
+   -I ${reads[1]} \
+   -o ${sample_id}_FP_R1.fq.gz \
+   -O ${sample_id}_FP_R2.fq.gz
+  """
+}
+
+workflow {
+  reads_ch = channel.fromFilePairs('data/yeast/reads/ref1_{1,2}.fq.gz')
+
+  FASTP(reads_ch)
+  FASTP.out.view()
+}
