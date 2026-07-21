@@ -1,0 +1,4 @@
+sample,fastq_1,fastq_2
+Sample01,/home/workspace/amd-academy-nextflow/data/bacteria/reads/Sample01_R1.fastq.gz,/home/workspace/amd-academy-nextflow/data/bacteria/reads/Sample01_R2.fastq.gz
+Sample02,/home/workspace/amd-academy-nextflow/data/bacteria/reads/Sample02_R1.fastq.gz,/home/workspace/amd-academy-nextflow/data/bacteria/reads/Sample02_R2.fastq.gz
+Sample03,/home/workspace/amd-academy-nextflow/data/bacteria/reads/Sample03_R1.fastq.gz,/home/workspace/amd-academy-nextflow/data/bacteria/reads/Sample03_R2.fastq.gz

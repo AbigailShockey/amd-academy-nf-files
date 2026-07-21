@@ -1,4 +1,0 @@
-sample,fastq_1,fastq_2
-Sample01,https://raw.githubusercontent.com/AbigailShockey/amd-academy-nf-files/main/data/bacteria/reads/Sample01_R1.fastq.gz,https://raw.githubusercontent.com/AbigailShockey/amd-academy-nf-files/main/data/bacteria/reads/Sample01_R2.fastq.gz
-Sample02,https://raw.githubusercontent.com/AbigailShockey/amd-academy-nf-files/main/data/bacteria/reads/Sample02_R1.fastq.gz,https://raw.githubusercontent.com/AbigailShockey/amd-academy-nf-files/main/data/bacteria/reads/Sample02_R2.fastq.gz
-Sample03,https://raw.githubusercontent.com/AbigailShockey/amd-academy-nf-files/main/data/bacteria/reads/Sample03_R1.fastq.gz,https://raw.githubusercontent.com/AbigailShockey/amd-academy-nf-files/main/data/bacteria/reads/Sample03_R2.fastq.gz
