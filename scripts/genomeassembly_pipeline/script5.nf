@@ -111,4 +111,6 @@ workflow {
 
   trimmed_reads_ch=TRIM(read_pairs_ch)
   ASSEMBLE(trimmed_reads_ch)
+  //Add the FASTQC process here, using the read_pairs_ch as input
+  //Add the FASTQC_TRIMMED process here, using the trimmed_reads_ch as input
 }
